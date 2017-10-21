@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(170, 170, 228);
+    background-image: url("https://image.ibb.co/f3hRUv/plane.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    color: rgb(41, 8, 92);
+}
+
+.wrapper {
+    max-width: 480px;
+    margin: auto;
+    background-color: rgb(241, 243, 143);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ============ HEADER ================ */
+header, footer {
+    height: 100px;
+}
+
+h1 {
+    line-height: 80px;
+    height: 80px;
+    text-align: center;
+}
+/* ============ MAIN ================ */
+main {
+    font-size: 0;
+}
+
+section {
+    width: 40%;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 15px 10px 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ============ FOOTER ================ */ 
+footer > ul > li {
+    display: inline-block;
+    margin-left: 20%;
+    color: green;
+  list-style: circle;
+}
+
+ .item--footer > a {
+  color: green;
+}
+
+ .item--footer  > a {
+  color: green;
+}
+
+h1 {
+  color: red;
+}
